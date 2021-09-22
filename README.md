@@ -1,5 +1,5 @@
 <h1 align="center">
-  Introdução do Python | Introduction to Python
+  Introdução ao Python | Introduction to Python
 </h1>
 
 <div align="center">
