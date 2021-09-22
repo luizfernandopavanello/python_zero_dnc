@@ -41,6 +41,4 @@ tupla = (0, 1, 2, 3, 4, 5, 6, 7, 8 , 9)
 
 for i in tupla:
     if i in lista1:
-        print('i')
-    else:
-        print('Error')
+        print(i, 'está na lista e na tupla.')
