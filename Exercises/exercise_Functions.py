@@ -55,15 +55,18 @@
 
 lista = [5,2,5,7,4,2,6,10,342,54,23,6,7,9,12]
 
-pair = list(filter(lambda x: True if x % 2 == 0 else False,lista))
+# pair = list(filter(lambda x: True if x % 2 == 0 else False,lista))
 
-print(sorted(pair))
+# print(sorted(pair))
 
 """3. Utilize a função reduce e retorne a soma da lista anterior."""
 
-from functools import reduce
+# from functools import reduce
 
-reducer1 = reduce(lambda a, b: a + b, pair)
+# reducer1 = reduce(lambda a, b: a + b, pair)
 
-print(reducer1)
+# print(reducer1)
 
+lista = list(map(int, lista))
+lista.sort()
+print(lista)
