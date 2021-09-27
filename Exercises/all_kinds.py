@@ -27,6 +27,13 @@
 
 # print(list(filter(lambda x : x.lower() in 'aeiou', chars)))
 
+"""
+Case 1 → Uma empresa te enviou 3 listas, uma representa a largura, outra representa a altura e a terceira representa a área em m2 de determinado terreno, todas estão ordenadas entretanto tem alguns valores faltantes que precisam ser preenchidos. <br> Todos os terrenos dessa empresa são retângulares e você pode utilizar a fórmula abaixo:
+
+---
+
+*a = b. h (área = largura * altura)*
+
 area = [200,'null',720,1500,1000,275,'null',1200,2400,'null']
 altura = ['null',30,40,30,10,25,33,'null',12,20]
 largura = [20,20,'null',50,100,'null',30,100,200,10]
@@ -59,3 +66,5 @@ print("Os terrenos tem em média",sum(altura)/len(altura), "M de altura.")
 print("Os terrenos tem em média",sum(largura)/len(largura), "M de lagura.")
 
 print('No total a empresa tem',sum(area),'M, e a média total dos terrenos é de ',sum(area)/len(area),'M2')
+"""
+
